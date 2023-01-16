@@ -46,7 +46,7 @@ public class BFS {
     public static void bfs(ArrayList<Edge>[] graph) {
         Queue<Integer> q = new LinkedList<>();
         
-        boolean[] vis = new boolean[graph.length];
+        boolean []vis = new boolean[graph.length];
         q.add(0); // src = 0;
 
         while (!q.isEmpty()) {
